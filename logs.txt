@@ -1,0 +1,48 @@
+commit f0edbde9a47a5afc0babda162dec339edc24eb51 (HEAD -> master, origin/master)
+Merge: 931209d a76cf46
+Author: DavidGjorgiev <davidgorgiev6@gmail.com>
+Date:   Thu Apr 4 17:46:33 2024 +0200
+
+    Fixed merge commit
+
+commit 931209dc103ae976f25a628b7d4c8c427cc68cfd
+Author: DavidGjorgiev <davidgorgiev6@gmail.com>
+Date:   Thu Apr 4 17:33:12 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit a76cf4639f8abe9b9eba4b299541b0ed73e3ffc6 (origin/bug2, bug2)
+Author: DavidGjorgiev <davidgorgiev6@gmail.com>
+Date:   Fri Mar 29 02:11:51 2024 +0100
+
+    Call method makeBigStringFrom in main class
+
+commit 2b6f6d8d5e83aa530b2cd27ff0a7d3ba17f44d7d (origin/bug1, bug1)
+Author: DavidGjorgiev <davidgorgiev6@gmail.com>
+Date:   Fri Mar 29 02:08:37 2024 +0100
+
+    Call method filterOddLengthStrings in main class
+
+commit 1799656bf27489d7001ea9558208d6ca1925a325
+Author: DavidGjorgiev <davidgorgiev6@gmail.com>
+Date:   Fri Mar 29 02:01:52 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 7a927906529c08d699bd49cc9d9976b37b77c88e
+Author: DavidGjorgiev <davidgorgiev6@gmail.com>
+Date:   Fri Mar 29 01:49:10 2024 +0100
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 7b9a71d756ebfba074ed10939a41582e3f7158b9
+Author: DavidGjorgiev <davidgorgiev6@gmail.com>
+Date:   Fri Mar 29 00:47:35 2024 +0100
+
+    Add starter code
+
+commit 6298087b804b9d214b3ed6d2987f8fa180ac0efd
+Author: DavidGjorgiev <davidgorgiev6@gmail.com>
+Date:   Fri Mar 29 00:35:36 2024 +0100
+
+    Initial commit

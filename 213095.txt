@@ -1,0 +1,70 @@
+// So slednata komanda se inicijalizira Git vo direktoriumot SI_2024_lab1_213095
+4) git init
+
+// Povrzuvanje na lokalniot repozitorium so oddalecheniot repozitorium
+5) git remote add origin https://github.com/DavidGjorgiev314/SI_2024_lab1_213095.git
+
+// Kreiranje na README.md datoteka i pravenje commit so poraka "Initial commit"
+6) notepad README.md
+   git add README.md
+   git commit -m 'Initial commit'
+
+// Commit so poraka "Add starter code"
+7) git commit -m "Add starter code"
+
+// Sinhroniziranje na site granki so oddalecheniot repozitorium
+8) git push origin -all
+
+// Otvaranje na 2 granki: bug1 i bug2
+9) git checkout -b bug1
+   git checkout -b bug2
+
+// Prefrlanje na grankata bug1
+10) git checkout bug1
+
+// Commit so poraka "Fix wrong condition in filterOddLengthStrings" otkako e popravena greshkata vo SILab1_1.java
+11) git add SILab1_1.java
+    git commit -m "Fix wrong condition in filterOddLengthStrings"
+	
+// Prefrlanje na grankata bug2
+12) git checkout bug2
+
+// Commit so poraka "Fix wrong condition in makeBigStringFrom" otkako e popravena greshkata vo SILab1_2.java
+13) git add SILab1_2.java
+    git commit -m "Fix wrong condition in makeBigStringFrom"
+	
+// Vrakjanje vo grankata bug1
+14) git checkout bug1
+
+15) git commit -m "Call method filterOddLengthStrings in main class"
+
+16) git checkout bug2
+
+17) git commit -m "Call method makeBigStringFrom in main class"
+
+18) git push --all
+
+19) git checkout master
+
+20) git merge bug1
+
+21) git push origin --all
+
+22) git checkout bug2
+
+23) git rebase master
+
+24) git checkout master
+
+25) git merge bug2
+* error: Merging is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict. *
+
+*merge conflict, pravenje na promeni vo SILab1Main.java, pechatenje na filterOddLengthStrings i makeBigStringFrom edno po drugo,
+pravenje commit na SILab1Main.java so poraka "Fixed merge commit"*
+
+26) git push origin --all
+
+27) vekje se sinhronizirani grankite, nema potreba
